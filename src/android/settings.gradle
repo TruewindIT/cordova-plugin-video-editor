@@ -1,5 +1,5 @@
 sourceControl {
-    gitRepository("https://github.com/ypresto/android-transcoder.git") {
+    gitRepository("https://github.com/fs-truewind/cordova-plugin-video-editor.git") {
         producesModule("net.ypresto.androidtranscoder:android-transcoder")
     }
 }

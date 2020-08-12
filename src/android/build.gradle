@@ -5,9 +5,12 @@ repositories{
 }
 
 dependencies {
-    compile 'com.github.ypresto:android-transcoder:0.3.0'
+    implementation('com.github.ypresto:android-transcoder') {
+        version {
+            branch = 'master'
+        }
+    }
 }
-
 android {
     packagingOptions {
         exclude 'META-INF/NOTICE'

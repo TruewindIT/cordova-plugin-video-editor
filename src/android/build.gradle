@@ -5,7 +5,7 @@ repositories{
 }
 
 dependencies {
-	        implementation 'com.github.fs-truewind:android-transcoder:master'
+	        implementation 'com.github.TruewindIT:android-transcoder:master'
 	}
 android {
     packagingOptions {
